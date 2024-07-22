@@ -1,0 +1,70 @@
+/* Hero Section Styling - index.html */
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero1 {
+    color: rgb(234, 5, 5);
+    z-index: 1;
+}
+
+.hero1 h1 {
+    margin: 0;
+    padding: 20px 10px;
+    font-size: 37px;
+}
+
+.hero1 p {
+    font-size: 24px;
+}
+
+/* .hero1 img {
+    width: 150px;
+    height: auto;
+    opacity: 0.8;
+    margin-bottom: 20px;
+} */
+
+.hero1 img {
+    width: 750px; /* Gambar mengisi lebar kontainer hero */
+    height: auto; /* Menjaga proporsi gambar */
+    opacity: 0.10; /* Mengatur transparansi gambar */
+    position: relative; /*Posisi gambar mutlak agar bisa diatur di belakang elemen lainnya  */
+    top: -770px; /*Mengatur gambar berada di atas kontainer hero */ 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;/* Menempatkan gambar di belakang elemen teks */ 
+} 
+
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #0687aa;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #f4f4f4;
+}
